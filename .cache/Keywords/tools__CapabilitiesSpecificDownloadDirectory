@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "9EEE0E27010A8933BF849E6E684B3983",
+  "keywordClasses": [
+    {
+      "name": "tools.CapabilitiesSpecificDownloadDirectory",
+      "keywordMethods": [
+        {
+          "name": "SetSpecificDownloadDirectoryIfNeeded",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

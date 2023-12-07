@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CheckBox_MandateParSocieteAEtranger_Non</name>
+   <tag></tag>
+   <elementGuidId>534de9ed-ed3e-4e42-ad06-3cfbd83abf3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-createur-entreprise//app-informations-relatives-entreprise-creee/div/div/div[7]/div/anef-input-radio/div/div/fieldset/div/div[2]/p-radiobutton/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

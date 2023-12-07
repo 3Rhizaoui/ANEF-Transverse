@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_AdresseOrganismeTenantCompte</name>
+   <tag></tag>
+   <elementGuidId>1fbfa21c-fab5-4d86-8f64-bc681ea627eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-motif-sejour-ptinv//app-createur-entreprise//app-indent-wrapper/app-moyens-financiers/div[2]/div/anef-repeat-form/div/div[2]/fieldset/app-moyens-financiers-compte/fieldset/div[4]/div/anef-input-text/div/div/div[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Click_Select_Value_NatureDuLienOrganismeAccueil</name>
+   <tag></tag>
+   <elementGuidId>813f2443-7c42-4fd4-b558-2b08e3f98398</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;NATURE_ORGANISME_ACCUEIL&quot;]/div/div[5]/div/ul/p-dropdownitem[2]/li/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

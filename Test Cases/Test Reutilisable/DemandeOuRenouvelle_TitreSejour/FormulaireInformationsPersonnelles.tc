@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FormulaireInformationsPersonnelles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14a022be-850b-4761-81b2-34935906b612</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c2ca582-a6b7-43e2-8889-a929fdc02b77</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e62cc614-e792-4047-b136-101449b265b0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d61ae812-7d9c-46e3-8efe-c0950dc1e432</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('DataFor3TestCase')</defaultValue>
+      <description></description>
+      <id>2c2ca582-a6b7-43e2-8889-a929fdc02b77</id>
+      <masked>false</masked>
+      <name>AdresseUsager</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('DataFor3TestCase')</defaultValue>
+      <description></description>
+      <id>e62cc614-e792-4047-b136-101449b265b0</id>
+      <masked>false</masked>
+      <name>NumeroTelephoneUsager</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('DataFor3TestCase')</defaultValue>
+      <description></description>
+      <id>d61ae812-7d9c-46e3-8efe-c0950dc1e432</id>
+      <masked>false</masked>
+      <name>Titre</name>
+   </variable>
+</TestCaseEntity>

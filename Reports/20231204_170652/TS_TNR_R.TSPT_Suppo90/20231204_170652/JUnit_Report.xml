@@ -1,0 +1,1851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_TNR_R.TSPT_Suppo90" time="122.557" tests="1" failures="1" errors="0">
+   <testsuite name="TS_TNR_R.TSPT_Suppo90" tests="1" failures="1" errors="0" time="122.557" skipped="0" timestamp="2023-12-04 17:07:02" hostname="hhizaoui - FRLFK0635000045.corp.capgemini.com" id="Test Suites/TS_TNR_R.TSPT_Suppo90">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hhizaoui\\.git\\NewProject29092023\\Nouveau dossier1\\22_11\\ANEF-AutomatizationProject\\Reports\\20231204_170652\\TS_TNR_R.TSPT_Suppo90\\20231204_170652"/>
+         <property name="logFiles" value="C:\\Users\\hhizaoui\\.git\\NewProject29092023\\Nouveau dossier1\\22_11\\ANEF-AutomatizationProject\\Reports\\20231204_170652\\TS_TNR_R.TSPT_Suppo90\\20231204_170652\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hhizaoui\\.git\\NewProject29092023\\Nouveau dossier1\\22_11\\ANEF-AutomatizationProject\\Reports\\20231204_170652\\TS_TNR_R.TSPT_Suppo90\\20231204_170652\\1701706140407.png"/>
+         <property name="hostName" value="hhizaoui - FRLFK0635000045.corp.capgemini.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.14"/>
+         <property name="sessionId" value="ab57afd769a6897572e8d1e8bc9baef4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=USE_SYSTEM, proxyServerType=HTTP, username=, password=********, proxyServerAddress=127.0.0.1, proxyServerPort=8082, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Cas D Utilisations/Usager Etudiant/TNR R.TSPT Supp90-Visiteur" time="121.466" classname="Test Cases/Cas D Utilisations/Usager Etudiant/TNR R.TSPT Supp90-Visiteur" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Cas D Utilisations/Usager Etudiant/TNR R.TSPT Supp90-Visiteur FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 36 more
+"/>
+         <system-out><![CDATA[2023-12-04 17:07:03 - [TEST_CASE][FAILED] - Test Cases/Cas D Utilisations/Usager Etudiant/TNR R.TSPT Supp90-Visiteur: Test Cases/Cas D Utilisations/Usager Etudiant/TNR R.TSPT Supp90-Visiteur FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 36 more
+
+
+2023-12-04 17:07:05 - [TEST_STEP][PASSED] - com.kazurayam.ksbackyard.HighlightElement.pandemic(): com.kazurayam.ksbackyard.HighlightElement.pandemic is PASSED
+
+2023-12-04 17:07:05 - [MESSAGE][PASSED] - com.kazurayam.ksbackyard.HighlightElement.pandemic is PASSED
+
+2023-12-04 17:07:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Reutilisable/Main/Lancer URL ANEF"), ["Profiles":"Usager", "EnvExec":EnvExec], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Reutilisable/Main/Lancer URL ANEF' successfully
+
+2023-12-04 17:07:06 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-12-04 17:07:06 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/Main/Lancer URL ANEF'
+
+2023-12-04 17:07:06 - [TEST_CASE][PASSED] - Test Cases/Test Reutilisable/Main/Lancer URL ANEF: Test Cases/Test Reutilisable/Main/Lancer URL ANEF
+
+2023-12-04 17:07:11 - [TEST_STEP][PASSED] - "RunConfiguration: getProjectDir for LogDriver ": null
+
+2023-12-04 17:07:11 - [TEST_STEP][PASSED] - RunBrowserConfiguration = getExecutionProperties(): null
+
+2023-12-04 17:07:11 - [TEST_STEP][PASSED] - DriverName = "": null
+
+2023-12-04 17:07:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-04 17:07:11 - [MESSAGE][INFO] - Opening browser
+
+2023-12-04 17:07:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-04 17:07:11 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --start-maximized, --remote-allow-origins=*]']
+
+2023-12-04 17:07:11 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=${GlobalVariable.downloadPath}, download_dir=${GlobalVariable.downloadPath}, download.prompt_for_download=false}']
+
+2023-12-04 17:07:11 - [MESSAGE][INFO] - User set preference: ['loggingPrefs', '{browser=ALL}']
+
+2023-12-04 17:07:11 - [MESSAGE][INFO] - Action delay is set to 2 000 milliseconds
+
+2023-12-04 17:07:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-04 17:07:16 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-12-04 17:07:16 - [TEST_STEP][PASSED] - wrappedDriver = driver.getWrappedDriver(): null
+
+2023-12-04 17:07:16 - [TEST_STEP][PASSED] - out.println(wrappedDriver.getClass()): null
+
+2023-12-04 17:07:17 - [TEST_STEP][PASSED] - if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver): null
+
+2023-12-04 17:07:17 - [TEST_STEP][PASSED] - else: null
+
+2023-12-04 17:07:17 - [TEST_STEP][PASSED] - DriverName = get("WebUI").get("browserType"): null
+
+2023-12-04 17:07:17 - [TEST_STEP][PASSED] - println("DriverName :" + DriverName): null
+
+2023-12-04 17:07:17 - [TEST_STEP][PASSED] - println("Driverpath :" + RunBrowserConfiguration.get("drivers")): null
+
+2023-12-04 17:07:17 - [TEST_STEP][PASSED] - DriverName = DriverName: null
+
+2023-12-04 17:07:18 - [TEST_STEP][PASSED] - delay(medium_wait): Delayed 3 second(s)
+
+2023-12-04 17:07:18 - [MESSAGE][INFO] - Delaying browser in 3 second(s)
+
+2023-12-04 17:07:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-04 17:07:21 - [TEST_STEP][PASSED] - executedBrowser = getExecutedBrowser(): null
+
+2023-12-04 17:07:21 - [TEST_STEP][PASSED] - if (Profiles == "Usager"): null
+
+2023-12-04 17:07:21 - [TEST_STEP][PASSED] - switch (DriverName): null
+
+2023-12-04 17:07:21 - [TEST_STEP][PASSED] - case "CHROME_DRIVER":: null
+
+2023-12-04 17:07:21 - [TEST_STEP][PASSED] - if (EnvExec == "URL_ANEFQualif"): Navigate to 'https://qualif.administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/' successfully
+
+2023-12-04 17:07:21 - [TEST_STEP][PASSED] - navigateToUrl(URL_ANEFQualif): Navigate to 'https://qualif.administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/' successfully
+
+2023-12-04 17:07:21 - [MESSAGE][INFO] - Checking url
+
+2023-12-04 17:07:21 - [MESSAGE][INFO] - Navigating to 'https://qualif.administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/'
+
+2023-12-04 17:07:24 - [MESSAGE][PASSED] - Navigate to 'https://qualif.administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/' successfully
+
+2023-12-04 17:07:24 - [TEST_STEP][PASSED] - if (EnvExec == "URL_ANEFPreProd"): null
+
+2023-12-04 17:07:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-12-04 17:07:24 - [MESSAGE][INFO] - Maximizing current window
+
+2023-12-04 17:07:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-12-04 17:07:24 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", getChromeDriverPath()): null
+
+2023-12-04 17:07:24 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.logfile", getProjectDir() + "/Dump/chromedriver.log"): null
+
+2023-12-04 17:07:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Reutilisable/Main/Erreur lie a la confidentialite"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Reutilisable/Main/Erreur lie a la confidentialite' successfully
+
+2023-12-04 17:07:24 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-12-04 17:07:24 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/Main/Erreur lie a la confidentialite'
+
+2023-12-04 17:07:24 - [TEST_CASE][PASSED] - Test Cases/Test Reutilisable/Main/Erreur lie a la confidentialite: Test Cases/Test Reutilisable/Main/Erreur lie a la confidentialite
+
+2023-12-04 17:07:25 - [TEST_STEP][PASSED] - tools.WaitForLoadedPage.waitForElementRendering(): tools.WaitForLoadedPage.waitForElementRendering is PASSED
+
+2023-12-04 17:07:25 - [MESSAGE][PASSED] - tools.WaitForLoadedPage.waitForElementRendering is PASSED
+
+2023-12-04 17:07:25 - [TEST_STEP][PASSED] - "Call Highlight.on() automatically": null
+
+2023-12-04 17:07:25 - [TEST_STEP][PASSED] - DriverName = DriverName: null
+
+2023-12-04 17:07:25 - [TEST_STEP][PASSED] - if (DriverName == "CHROME_DRIVER" || "EDGE_CHROMIUM_DRIVER" || "HEADLESS_DRIVER"): null
+
+2023-12-04 17:07:25 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Connexion Usager/Btn_Parametres Avances"), 2, OPTIONAL)): null
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Connexion Usager/Btn_Parametres Avances'
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Btn_Parametres Avances' located by 'By.xpath: //*[@id="details-button"]' in '2' second(s)
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Btn_Parametres Avances' located by 'By.xpath: //*[@id="details-button"]' in '2' second(s)
+
+2023-12-04 17:07:25 - [MESSAGE][PASSED] - Object 'Object Repository/Connexion Usager/Btn_Parametres Avances' is present
+
+2023-12-04 17:07:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Connexion Usager/Btn_Parametres Avances"), OPTIONAL): Object: 'Object Repository/Connexion Usager/Btn_Parametres Avances' is clicked on
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Connexion Usager/Btn_Parametres Avances'
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Btn_Parametres Avances' located by 'By.xpath: //*[@id="details-button"]' in '20' second(s)
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Btn_Parametres Avances' located by 'By.xpath: //*[@id="details-button"]' in '20' second(s)
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Btn_Parametres Avances' located by 'By.xpath: //*[@id="details-button"]' in '5' second(s)
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Btn_Parametres Avances' located by 'By.xpath: //*[@id="details-button"]' in '5' second(s)
+
+2023-12-04 17:07:25 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Connexion Usager/Btn_Parametres Avances'
+
+2023-12-04 17:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Connexion Usager/Btn_Parametres Avances' is clicked on
+
+2023-12-04 17:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Connexion Usager/Link_Proceed-Link"), OPTIONAL): Object: 'Object Repository/Connexion Usager/Link_Proceed-Link' is clicked on
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Connexion Usager/Link_Proceed-Link'
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Link_Proceed-Link' located by 'By.xpath: //*[@id="proceed-link"]' in '20' second(s)
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Link_Proceed-Link' located by 'By.xpath: //*[@id="proceed-link"]' in '20' second(s)
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Link_Proceed-Link' located by 'By.xpath: //*[@id="proceed-link"]' in '5' second(s)
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Link_Proceed-Link' located by 'By.xpath: //*[@id="proceed-link"]' in '5' second(s)
+
+2023-12-04 17:07:28 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Connexion Usager/Link_Proceed-Link'
+
+2023-12-04 17:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Connexion Usager/Link_Proceed-Link' is clicked on
+
+2023-12-04 17:07:30 - [TEST_STEP][PASSED] - if (DriverName == "IE_DRIVER"): null
+
+2023-12-04 17:07:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-04 17:07:30 - [MESSAGE][INFO] - Delaying browser in 3 second(s)
+
+2023-12-04 17:07:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-04 17:07:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Reutilisable/Main/Erreur lie a la confidentialite' successfully
+
+2023-12-04 17:07:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-12-04 17:07:33 - [MESSAGE][INFO] - Delaying browser in 5 second(s)
+
+2023-12-04 17:07:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-12-04 17:07:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Connexion Usager/Link_Se Connecter"), STOP_ON_FAILURE): Object 'Object Repository/Connexion Usager/Link_Se Connecter' is visible
+
+2023-12-04 17:07:38 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Connexion Usager/Link_Se Connecter'
+
+2023-12-04 17:07:38 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:07:38 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:07:38 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:38 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Link_Se Connecter' located by 'By.xpath: //*[@id="connexion_link"]' in '5' second(s)
+
+2023-12-04 17:07:38 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:39 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Link_Se Connecter' located by 'By.xpath: //*[@id="connexion_link"]' in '5' second(s)
+
+2023-12-04 17:07:39 - [MESSAGE][PASSED] - Object 'Object Repository/Connexion Usager/Link_Se Connecter' is visible
+
+2023-12-04 17:07:39 - [TEST_STEP][PASSED] - break: null
+
+2023-12-04 17:07:39 - [TEST_STEP][PASSED] - if (Profiles == "Agent"): null
+
+2023-12-04 17:07:39 - [TEST_STEP][PASSED] - else: null
+
+2023-12-04 17:07:39 - [TEST_STEP][PASSED] - println("Vérifier le Portail de votre connexion Usager ou Agent"): null
+
+2023-12-04 17:07:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Reutilisable/Main/Lancer URL ANEF' successfully
+
+2023-12-04 17:07:39 - [TEST_STEP][FAILED] - if (StopTestCase == false): Unable to call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 36 more
+)
+
+2023-12-04 17:07:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Reutilisable/Main/Identification"), ["Profiles":"Usager", "NumEtrangerVisa":NumEtrangerVisa], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Reutilisable/Main/Identification' successfully
+
+2023-12-04 17:07:39 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-12-04 17:07:39 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/Main/Identification'
+
+2023-12-04 17:07:39 - [TEST_CASE][PASSED] - Test Cases/Test Reutilisable/Main/Identification: Test Cases/Test Reutilisable/Main/Identification
+
+2023-12-04 17:07:40 - [TEST_STEP][PASSED] - if (Profiles == "Usager"): Object 'Object Repository/Page_Accueil_Usager/Span_MesNotifications' is present
+
+2023-12-04 17:07:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-12-04 17:07:40 - [MESSAGE][INFO] - Delaying browser in 5 second(s)
+
+2023-12-04 17:07:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-12-04 17:07:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Connexion Usager/Link_Se Connecter")): Object: 'Object Repository/Connexion Usager/Link_Se Connecter' is clicked on
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Connexion Usager/Link_Se Connecter'
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Link_Se Connecter' located by 'By.xpath: //*[@id="connexion_link"]' in '20' second(s)
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Link_Se Connecter' located by 'By.xpath: //*[@id="connexion_link"]' in '20' second(s)
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Link_Se Connecter' located by 'By.xpath: //*[@id="connexion_link"]' in '5' second(s)
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Link_Se Connecter' located by 'By.xpath: //*[@id="connexion_link"]' in '5' second(s)
+
+2023-12-04 17:07:45 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Connexion Usager/Link_Se Connecter'
+
+2023-12-04 17:07:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Connexion Usager/Link_Se Connecter' is clicked on
+
+2023-12-04 17:07:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Reutilisable/Main/Erreur lie a la confidentialite"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Reutilisable/Main/Erreur lie a la confidentialite' successfully
+
+2023-12-04 17:07:47 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-12-04 17:07:47 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/Main/Erreur lie a la confidentialite'
+
+2023-12-04 17:07:47 - [TEST_CASE][PASSED] - Test Cases/Test Reutilisable/Main/Erreur lie a la confidentialite: Test Cases/Test Reutilisable/Main/Erreur lie a la confidentialite
+
+2023-12-04 17:07:47 - [TEST_STEP][PASSED] - tools.WaitForLoadedPage.waitForElementRendering(): tools.WaitForLoadedPage.waitForElementRendering is PASSED
+
+2023-12-04 17:07:47 - [MESSAGE][PASSED] - tools.WaitForLoadedPage.waitForElementRendering is PASSED
+
+2023-12-04 17:07:47 - [TEST_STEP][PASSED] - "Call Highlight.on() automatically": null
+
+2023-12-04 17:07:47 - [TEST_STEP][PASSED] - DriverName = DriverName: null
+
+2023-12-04 17:07:47 - [TEST_STEP][PASSED] - if (DriverName == "CHROME_DRIVER" || "EDGE_CHROMIUM_DRIVER" || "HEADLESS_DRIVER"): null
+
+2023-12-04 17:07:47 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Connexion Usager/Btn_Parametres Avances"), 2, OPTIONAL)): null
+
+2023-12-04 17:07:47 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Connexion Usager/Btn_Parametres Avances'
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Btn_Parametres Avances' located by 'By.xpath: //*[@id="details-button"]' in '2' second(s)
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Btn_Parametres Avances' located by 'By.xpath: //*[@id="details-button"]' in '2' second(s)
+
+2023-12-04 17:07:48 - [MESSAGE][PASSED] - Object 'Object Repository/Connexion Usager/Btn_Parametres Avances' is present
+
+2023-12-04 17:07:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Connexion Usager/Btn_Parametres Avances"), OPTIONAL): Object: 'Object Repository/Connexion Usager/Btn_Parametres Avances' is clicked on
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Connexion Usager/Btn_Parametres Avances'
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Btn_Parametres Avances' located by 'By.xpath: //*[@id="details-button"]' in '20' second(s)
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Btn_Parametres Avances' located by 'By.xpath: //*[@id="details-button"]' in '20' second(s)
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Btn_Parametres Avances' located by 'By.xpath: //*[@id="details-button"]' in '5' second(s)
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Btn_Parametres Avances' located by 'By.xpath: //*[@id="details-button"]' in '5' second(s)
+
+2023-12-04 17:07:48 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Connexion Usager/Btn_Parametres Avances'
+
+2023-12-04 17:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Connexion Usager/Btn_Parametres Avances' is clicked on
+
+2023-12-04 17:07:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Connexion Usager/Link_Proceed-Link"), OPTIONAL): Object: 'Object Repository/Connexion Usager/Link_Proceed-Link' is clicked on
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Connexion Usager/Link_Proceed-Link'
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Link_Proceed-Link' located by 'By.xpath: //*[@id="proceed-link"]' in '20' second(s)
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Link_Proceed-Link' located by 'By.xpath: //*[@id="proceed-link"]' in '20' second(s)
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Link_Proceed-Link' located by 'By.xpath: //*[@id="proceed-link"]' in '5' second(s)
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Link_Proceed-Link' located by 'By.xpath: //*[@id="proceed-link"]' in '5' second(s)
+
+2023-12-04 17:07:50 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Connexion Usager/Link_Proceed-Link'
+
+2023-12-04 17:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Connexion Usager/Link_Proceed-Link' is clicked on
+
+2023-12-04 17:07:52 - [TEST_STEP][PASSED] - if (DriverName == "IE_DRIVER"): null
+
+2023-12-04 17:07:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-04 17:07:52 - [MESSAGE][INFO] - Delaying browser in 3 second(s)
+
+2023-12-04 17:07:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-04 17:07:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Reutilisable/Main/Erreur lie a la confidentialite' successfully
+
+2023-12-04 17:07:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-12-04 17:07:55 - [MESSAGE][INFO] - Delaying browser in 5 second(s)
+
+2023-12-04 17:08:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-12-04 17:08:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Connexion Usager/Input_Identifiant"), NumEtrangerVisa): Text '7703042575' is set on object 'Object Repository/Connexion Usager/Input_Identifiant'
+
+2023-12-04 17:08:00 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Connexion Usager/Input_Identifiant'
+
+2023-12-04 17:08:01 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Input_Identifiant' located by 'By.xpath: //*[@id="login"]' in '20' second(s)
+
+2023-12-04 17:08:01 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Input_Identifiant' located by 'By.xpath: //*[@id="login"]' in '20' second(s)
+
+2023-12-04 17:08:01 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:08:01 - [MESSAGE][INFO] - Checking text
+
+2023-12-04 17:08:01 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:08:01 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Input_Identifiant' located by 'By.xpath: //*[@id="login"]' in '5' second(s)
+
+2023-12-04 17:08:01 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Input_Identifiant' located by 'By.xpath: //*[@id="login"]' in '5' second(s)
+
+2023-12-04 17:08:01 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Connexion Usager/Input_Identifiant'
+
+2023-12-04 17:08:03 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:08:03 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:03 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Input_Identifiant' located by 'By.xpath: //*[@id="login"]' in '5' second(s)
+
+2023-12-04 17:08:03 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:03 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Input_Identifiant' located by 'By.xpath: //*[@id="login"]' in '5' second(s)
+
+2023-12-04 17:08:03 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Connexion Usager/Input_Identifiant' to value '7703042575'
+
+2023-12-04 17:08:05 - [MESSAGE][PASSED] - Text '7703042575' is set on object 'Object Repository/Connexion Usager/Input_Identifiant'
+
+2023-12-04 17:08:05 - [TEST_STEP][PASSED] - NumEtrangerVisa = NumEtrangerVisa: null
+
+2023-12-04 17:08:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Connexion Usager/Input_MDP"), Password): Text ****** has been set on object 'Object Repository/Connexion Usager/Input_MDP'
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Connexion Usager/Input_MDP'
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Input_MDP' located by 'By.xpath: //*[@id="password"]' in '20' second(s)
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Input_MDP' located by 'By.xpath: //*[@id="password"]' in '20' second(s)
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Checking text
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/Input_MDP' located by 'By.xpath: //*[@id="password"]' in '5' second(s)
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/Input_MDP' located by 'By.xpath: //*[@id="password"]' in '5' second(s)
+
+2023-12-04 17:08:05 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Connexion Usager/Input_MDP'
+
+2023-12-04 17:08:07 - [MESSAGE][INFO] - Setting  text of object 'Object Repository/Connexion Usager/Input_MDP' to value ******
+
+2023-12-04 17:08:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Connexion Usager/Input_MDP'
+
+2023-12-04 17:08:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Connexion Usager/btn_Sidentifier")): Object: 'Object Repository/Connexion Usager/btn_Sidentifier' is clicked on
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Connexion Usager/btn_Sidentifier'
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/btn_Sidentifier' located by 'By.xpath: //*[@type= 'submit']' in '20' second(s)
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/btn_Sidentifier' located by 'By.xpath: //*[@type= 'submit']' in '20' second(s)
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Connexion Usager/btn_Sidentifier' located by 'By.xpath: //*[@type= 'submit']' in '5' second(s)
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Connexion Usager/btn_Sidentifier' located by 'By.xpath: //*[@type= 'submit']' in '5' second(s)
+
+2023-12-04 17:08:10 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Connexion Usager/btn_Sidentifier'
+
+2023-12-04 17:08:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Connexion Usager/btn_Sidentifier' is clicked on
+
+2023-12-04 17:08:13 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2023-12-04 17:08:13 - [MESSAGE][INFO] - Delaying browser in 15 second(s)
+
+2023-12-04 17:08:28 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2023-12-04 17:08:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Accueil_Usager/Span_MesNotifications"), 2, STOP_ON_FAILURE): Object 'Object Repository/Page_Accueil_Usager/Span_MesNotifications' is present
+
+2023-12-04 17:08:28 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Page_Accueil_Usager/Span_MesNotifications'
+
+2023-12-04 17:08:29 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:08:29 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:08:29 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:29 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Page_Accueil_Usager/Span_MesNotifications' located by 'By.xpath: //*[@id="navBar-new"]/nav/div[3]/div/div/ul/li[1]/a/span' in '2' second(s)
+
+2023-12-04 17:08:29 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:29 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Page_Accueil_Usager/Span_MesNotifications' located by 'By.xpath: //*[@id="navBar-new"]/nav/div[3]/div/div/ul/li[1]/a/span' in '2' second(s)
+
+2023-12-04 17:08:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Accueil_Usager/Span_MesNotifications' is present
+
+2023-12-04 17:08:29 - [TEST_STEP][PASSED] - if (Profiles == "Agent"): null
+
+2023-12-04 17:08:29 - [TEST_STEP][PASSED] - else: null
+
+2023-12-04 17:08:29 - [TEST_STEP][PASSED] - println("Vérifier le Portail de votre connexion Usager ou Agent"): null
+
+2023-12-04 17:08:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Reutilisable/Main/Identification' successfully
+
+2023-12-04 17:08:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Reutilisable/DemandeOuRenouvelle_TitreSejour/DemandeOuRenouvelleTitreSejour"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/DemandeOuRenouvelleTitreSejour' successfully
+
+2023-12-04 17:08:29 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-12-04 17:08:29 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/DemandeOuRenouvelleTitreSejour'
+
+2023-12-04 17:08:29 - [TEST_CASE][PASSED] - Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/DemandeOuRenouvelleTitreSejour: Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/DemandeOuRenouvelleTitreSejour
+
+2023-12-04 17:08:29 - [TEST_STEP][PASSED] - com.kazurayam.ksbackyard.HighlightElement.pandemic(): com.kazurayam.ksbackyard.HighlightElement.pandemic is PASSED
+
+2023-12-04 17:08:29 - [MESSAGE][PASSED] - com.kazurayam.ksbackyard.HighlightElement.pandemic is PASSED
+
+2023-12-04 17:08:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-04 17:08:29 - [MESSAGE][INFO] - Delaying browser in 3 second(s)
+
+2023-12-04 17:08:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-04 17:08:32 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Page_Accueil_Usager/btn_DemandeOuRenouvelleTitreSejour")): Object: 'Object Repository/Page_Accueil_Usager/btn_DemandeOuRenouvelleTitreSejour' is double clicked on
+
+2023-12-04 17:08:32 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Page_Accueil_Usager/btn_DemandeOuRenouvelleTitreSejour'
+
+2023-12-04 17:08:33 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:08:33 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:08:33 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:33 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Page_Accueil_Usager/btn_DemandeOuRenouvelleTitreSejour' located by 'By.xpath: //app-portal//app-portal-root/app-default-root-content/div/div/anef-tile[1]/a/span/span[2]' in '5' second(s)
+
+2023-12-04 17:08:33 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:33 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Page_Accueil_Usager/btn_DemandeOuRenouvelleTitreSejour' located by 'By.xpath: //app-portal//app-portal-root/app-default-root-content/div/div/anef-tile[1]/a/span/span[2]' in '5' second(s)
+
+2023-12-04 17:08:33 - [MESSAGE][INFO] - Double clicking on object: 'Object Repository/Page_Accueil_Usager/btn_DemandeOuRenouvelleTitreSejour'
+
+2023-12-04 17:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Accueil_Usager/btn_DemandeOuRenouvelleTitreSejour' is double clicked on
+
+2023-12-04 17:08:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-04 17:08:33 - [MESSAGE][INFO] - Delaying browser in 3 second(s)
+
+2023-12-04 17:08:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-04 17:08:36 - [TEST_STEP][PASSED] - switch (PourQui): null
+
+2023-12-04 17:08:36 - [TEST_STEP][PASSED] - case "Moi-même":: null
+
+2023-12-04 17:08:36 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Page_Accueil_Usager/CheckBox_Moi-meme")): Object 'Object Repository/Page_Accueil_Usager/CheckBox_Moi-meme' is checked
+
+2023-12-04 17:08:36 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Page_Accueil_Usager/CheckBox_Moi-meme'
+
+2023-12-04 17:08:36 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:08:36 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:08:36 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:36 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Page_Accueil_Usager/CheckBox_Moi-meme' located by 'By.xpath: //*/div[1]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' in '5' second(s)
+
+2023-12-04 17:08:36 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:36 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Page_Accueil_Usager/CheckBox_Moi-meme' located by 'By.xpath: //*/div[1]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' in '5' second(s)
+
+2023-12-04 17:08:36 - [MESSAGE][INFO] - Checking on bject 'Object Repository/Page_Accueil_Usager/CheckBox_Moi-meme'
+
+2023-12-04 17:08:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Accueil_Usager/CheckBox_Moi-meme' is checked
+
+2023-12-04 17:08:38 - [TEST_STEP][PASSED] - break: null
+
+2023-12-04 17:08:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Accueil_Usager/btn_JeContinue")): Object: 'Object Repository/Page_Accueil_Usager/btn_JeContinue' is clicked on
+
+2023-12-04 17:08:38 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Page_Accueil_Usager/btn_JeContinue'
+
+2023-12-04 17:08:39 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Page_Accueil_Usager/btn_JeContinue' located by 'By.xpath: //*[@ng-reflect-label='Je continue']|/html/body/app-root/div/app-portal/main/app-triage-demandeur/div/div/div/form/div[2]/button/span' in '20' second(s)
+
+2023-12-04 17:08:39 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:39 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/Page_Accueil_Usager/btn_JeContinue' located by 'By.xpath: //*[@ng-reflect-label='Je continue']|/html/body/app-root/div/app-portal/main/app-triage-demandeur/div/div/div/form/div[2]/button/span' in '20' second(s)
+
+2023-12-04 17:08:39 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:08:39 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:39 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:08:39 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Page_Accueil_Usager/btn_JeContinue' located by 'By.xpath: //*[@ng-reflect-label='Je continue']|/html/body/app-root/div/app-portal/main/app-triage-demandeur/div/div/div/form/div[2]/button/span' in '5' second(s)
+
+2023-12-04 17:08:39 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:39 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/Page_Accueil_Usager/btn_JeContinue' located by 'By.xpath: //*[@ng-reflect-label='Je continue']|/html/body/app-root/div/app-portal/main/app-triage-demandeur/div/div/div/form/div[2]/button/span' in '5' second(s)
+
+2023-12-04 17:08:39 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Page_Accueil_Usager/btn_JeContinue'
+
+2023-12-04 17:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Accueil_Usager/btn_JeContinue' is clicked on
+
+2023-12-04 17:08:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Test Reutilisable/Main/Verif_PopUpVotreTitreEstExpiréDepuis9Mois"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Reutilisable/Main/Verif_PopUpVotreTitreEstExpiréDepuis9Mois' successfully
+
+2023-12-04 17:08:41 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-12-04 17:08:41 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/Main/Verif_PopUpVotreTitreEstExpiréDepuis9Mois'
+
+2023-12-04 17:08:41 - [TEST_CASE][PASSED] - Test Cases/Test Reutilisable/Main/Verif_PopUpVotreTitreEstExpiréDepuis9Mois: Test Cases/Test Reutilisable/Main/Verif_PopUpVotreTitreEstExpiréDepuis9Mois
+
+2023-12-04 17:08:42 - [TEST_STEP][PASSED] - "Vérification s il y a un message Erreur :Votre Titre De séjour est Expiré Depuis 9 Mois.": null
+
+2023-12-04 17:08:42 - [TEST_STEP][PASSED] - MsgAlertPresent = verifyElementPresent(findTestObject("Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois"), 1, OPTIONAL): Object 'Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois' is present
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois'
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois' located by 'By.xpath: /html/body/app-root/div/app-portal/main/app-theme-v2/div/app-triage/div/div/div/form/div[1]/div/p-message/div/span[2]/strong[1]' in '1' second(s)
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois' located by 'By.xpath: /html/body/app-root/div/app-portal/main/app-theme-v2/div/app-triage/div/div/div/form/div[1]/div/p-message/div/span[2]/strong[1]' in '1' second(s)
+
+2023-12-04 17:08:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois' is present
+
+2023-12-04 17:08:42 - [TEST_STEP][PASSED] - if (MsgAlertPresent): null
+
+2023-12-04 17:08:42 - [TEST_STEP][PASSED] - alertText = getText(findTestObject("Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois"), OPTIONAL): Text of object 'Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois' is: 'Votre titre de séjour est expiré depuis plus de'
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois'
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois' located by 'By.xpath: /html/body/app-root/div/app-portal/main/app-theme-v2/div/app-triage/div/div/div/form/div[1]/div/p-message/div/span[2]/strong[1]' in '5' second(s)
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois' located by 'By.xpath: /html/body/app-root/div/app-portal/main/app-theme-v2/div/app-triage/div/div/div/form/div[1]/div/p-message/div/span[2]/strong[1]' in '5' second(s)
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Getting text of object 'Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois'
+
+2023-12-04 17:08:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Accueil_Usager/Verif_PopUpVotreTitreDeSejourEstExpireDepuis9Mois' is: 'Votre titre de séjour est expiré depuis plus de'
+
+2023-12-04 17:08:42 - [TEST_STEP][PASSED] - tools.markPasseAndStop.markPasseAndStopTest(alertText): Votre titre de séjour est expiré depuis plus de
+
+2023-12-04 17:08:42 - [MESSAGE][PASSED] - Votre titre de séjour est expiré depuis plus de
+
+2023-12-04 17:08:42 - [TEST_STEP][PASSED] - MsgStopTestCase = alertText: null
+
+2023-12-04 17:08:42 - [TEST_STEP][PASSED] - return null: null
+
+2023-12-04 17:08:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Reutilisable/Main/Verif_PopUpVotreTitreEstExpiréDepuis9Mois' successfully
+
+2023-12-04 17:08:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/DemandeOuRenouvelleTitreSejour' successfully
+
+2023-12-04 17:08:42 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour"), ["TypeTitreDeSejour":TypeTitreDeSejour, "Titre":Titre], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 36 more
+)
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-12-04 17:08:42 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour'
+
+2023-12-04 17:08:42 - [TEST_CASE][FAILED] - Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour: Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 36 more
+
+
+2023-12-04 17:08:44 - [TEST_STEP][PASSED] - com.kazurayam.ksbackyard.HighlightElement.pandemic(): com.kazurayam.ksbackyard.HighlightElement.pandemic is PASSED
+
+2023-12-04 17:08:44 - [MESSAGE][PASSED] - com.kazurayam.ksbackyard.HighlightElement.pandemic is PASSED
+
+2023-12-04 17:08:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-12-04 17:08:44 - [MESSAGE][INFO] - Delaying browser in 10 second(s)
+
+2023-12-04 17:08:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-12-04 17:08:54 - [TEST_STEP][FAILED] - switch (TypeTitreDeSejour): Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at Script1695813884805.run(Script1695813884805.groovy:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at Script1695213876796.run(Script1695213876796.groovy:43)
+	... 13 more
+)
+
+2023-12-04 17:08:54 - [TEST_STEP][FAILED] - case "ChercheurEtChercheurEnMobilite":: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at Script1695813884805.run(Script1695813884805.groovy:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at Script1695213876796.run(Script1695213876796.groovy:43)
+	... 13 more
+)
+
+2023-12-04 17:08:54 - [TEST_STEP][FAILED] - if (Titre == "Visiteur" || Titre == "Etudiant"): Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at Script1695813884805.run(Script1695813884805.groovy:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at Script1695213876796.run(Script1695213876796.groovy:43)
+	... 13 more
+)
+
+2023-12-04 17:08:54 - [TEST_STEP][FAILED] - check(findTestObject("Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent")): Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at Script1695813884805.run(Script1695813884805.groovy:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at Script1695213876796.run(Script1695213876796.groovy:43)
+	... 13 more
+)
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Checking object
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Checking timeout
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by 'By.xpath: //*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' in '5' second(s)
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:08:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:09:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:09:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:09:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:09:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:09:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:09:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:09:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:09:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-12-04 17:09:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-12-04 17:09:00 - [MESSAGE][FAILED] - Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at Script1695813884805.run(Script1695813884805.groovy:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at Script1695213876796.run(Script1695213876796.groovy:43)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\hhizaoui\\.git\\NewProject29092023\\Nouveau dossier1\\22_11\\ANEF-AutomatizationProject\\Reports\\20231204_170652\\TS_TNR_R.TSPT_Suppo90\\20231204_170652\\1701706140407.png]]
+
+2023-12-04 17:09:00 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 36 more
+)
+
+2023-12-04 17:09:04 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Cas D Utilisations/Usager Etudiant/TNR R.TSPT Supp90-Visiteur' .
+
+2023-12-04 17:09:04 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Cas D Utilisations/Usager Etudiant/TNR R.TSPT Supp90-Visiteur' .]]></system-out>
+         <system-err><![CDATA[2023-12-04 17:07:03 - [TEST_CASE][FAILED] - Test Cases/Cas D Utilisations/Usager Etudiant/TNR R.TSPT Supp90-Visiteur: Test Cases/Cas D Utilisations/Usager Etudiant/TNR R.TSPT Supp90-Visiteur FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 36 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-04 17:07:02 - [TEST_SUITE][FAILED] - TS_TNR_R.TSPT_Suppo90: Test Cases/Cas D Utilisations/Usager Etudiant/TNR R.TSPT Supp90-Visiteur FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 36 more]]></system-out>
+      <system-err><![CDATA[2023-12-04 17:07:02 - [TEST_SUITE][FAILED] - TS_TNR_R.TSPT_Suppo90: Test Cases/Cas D Utilisations/Usager Etudiant/TNR R.TSPT Supp90-Visiteur FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Test Reutilisable/DemandeOuRenouvelle_TitreSejour/FormulaireTypeDeTitreDeSejour' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at TNR R.TSPT Supp90-Visiteur.run(TNR R.TSPT Supp90-Visiteur:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701706012237.run(TempTestSuite1701706012237.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kazurayam.ksbackyard.HighlightElement$_pandemic_closure1.doCall(HighlightElement.groovy:105)
+	at FormulaireTypeDeTitreDeSejour.run(FormulaireTypeDeTitreDeSejour:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_DemarcheRenouvellement/CheckBox_SolliciteTS_PasseportTalent' located by '//*/div[3]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 36 more]]></system-err>
+   </testsuite>
+</testsuites>

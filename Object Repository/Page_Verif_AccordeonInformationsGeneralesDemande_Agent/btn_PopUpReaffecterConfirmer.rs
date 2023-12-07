@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_PopUpReaffecterConfirmer</name>
+   <tag></tag>
+   <elementGuidId>9bc8c7d7-64fa-4201-b996-1c71aed76a7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-demande-instruction//app-statut-demande/app-reaffectation-demande/lib-generic-modal/p-dialog/div/div[3]/p-footer/button[2]/span|//app-demandes-sejour//app-demande-table/app-reaffectation-demande/lib-generic-modal/p-dialog/div/div[3]/p-footer/button[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

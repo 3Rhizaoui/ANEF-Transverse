@@ -1,0 +1,81 @@
+{
+  "keywordFileContentHash": "07CBA345846F373044C9606C0E696EE1",
+  "keywordClasses": [
+    {
+      "name": "tools.UploadMyFile",
+      "keywordMethods": [
+        {
+          "name": "uploadFileUsingRobot",
+          "parameters": [
+            {
+              "name": "file",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Upload file using robot.\r\n\t *\r\n\t * @param object The object from which we can click to choose files.\r\n\t * @param file The full path of the file that needs to upload.\r\n\t */"
+        },
+        {
+          "name": "setClipboardData",
+          "parameters": [
+            {
+              "name": "string",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Upload file using robot.\r\n\t *\r\n\t * @param object The object from which we can click to choose files.\r\n\t * @param file The full path of the file that needs to upload.\r\n\t */"
+        },
+        {
+          "name": "uploadMyFile",
+          "parameters": [
+            {
+              "name": "object",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "file",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Upload file.\r\n\t *\r\n\t * @param object The object from which we can click to choose files.\r\n\t * @param file The full path of the file that needs to upload.\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

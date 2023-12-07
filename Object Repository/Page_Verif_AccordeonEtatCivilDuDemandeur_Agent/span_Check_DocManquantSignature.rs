@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Check_DocManquantSignature</name>
+   <tag></tag>
+   <elementGuidId>0e7f92e2-9e7d-4acb-bd84-05bfbfa2c3a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/app-etat-civil/div/div[2]/div/app-justificatifs[2]/div/div[1]/anef-input-check/div/div/p-checkbox/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

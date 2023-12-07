@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CheckBox_AvoirSouscritAUneAssuranceMaladie</name>
+   <tag></tag>
+   <elementGuidId>4420a367-a826-417d-98b2-45697631be6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-demande-visiteur//app-motif-sejour-visiteur//p-accordiontab[2]/div[2]//p-checkbox/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

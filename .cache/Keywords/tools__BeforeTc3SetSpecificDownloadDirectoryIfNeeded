@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "B9EBB6C1D4BE3F9A81EEE32AFA94E337",
+  "keywordClasses": [
+    {
+      "name": "tools.BeforeTc3SetSpecificDownloadDirectoryIfNeeded",
+      "keywordMethods": [
+        {
+          "name": "SetSpecificDownloadDirectoryIfNeeded",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

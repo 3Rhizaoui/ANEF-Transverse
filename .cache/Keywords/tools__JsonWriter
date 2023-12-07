@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "36E3FCA3BC01C5B89DB79C1BDCA188CF",
+  "keywordClasses": [
+    {
+      "name": "tools.JsonWriter",
+      "keywordMethods": [
+        {
+          "name": "WriterFile",
+          "parameters": [
+            {
+              "name": "JsonTxt",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "fileName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

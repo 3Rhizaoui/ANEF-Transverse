@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PopUp_TransfererLaDemande</name>
+   <tag></tag>
+   <elementGuidId>61fcefad-0eac-423f-926f-7a00a34bc3ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-layout/div/div/div/app-navigation-layout/div[2]/app-demande-instruction/div/app-statut-demande/app-transfert-demande/lib-generic-modal/p-dialog/div/div[1]/span/p-header/h2</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

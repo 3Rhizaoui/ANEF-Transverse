@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_DateDeNaissanceConjoint_AAAA</name>
+   <tag></tag>
+   <elementGuidId>dae31806-62bb-408c-9dfb-ee49a98c8a2d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-informations-membre-famille-generic/div/div[3]/div/anef-input-date-approx/div/div/fieldset/div[1]/div[3]/div/div/input|//app-situation-familiale/div[2]/div/anef-input-date-approx/div/div/fieldset/div/div[3]/div/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

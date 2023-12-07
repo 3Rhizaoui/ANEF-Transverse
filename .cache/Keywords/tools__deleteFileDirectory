@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "379FFAB85F54FDB3F4DD30928F631001",
+  "keywordClasses": [
+    {
+      "name": "tools.deleteFileDirectory",
+      "keywordMethods": [
+        {
+          "name": "cleanDirectory",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "FilesgetName",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

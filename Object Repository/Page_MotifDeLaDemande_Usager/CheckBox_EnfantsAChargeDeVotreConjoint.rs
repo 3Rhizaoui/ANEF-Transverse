@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CheckBox_EnfantsAChargeDeVotreConjoint</name>
+   <tag></tag>
+   <elementGuidId>0471c6c9-6dfa-413e-90c4-bb29d1aa74b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-has-enfants-charge[2]/div/div/anef-input-radio/div/div/fieldset/div/div[2]/p-radiobutton/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

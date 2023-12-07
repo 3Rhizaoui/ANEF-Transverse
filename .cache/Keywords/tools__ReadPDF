@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "AE5C4A5FABB64D293005EF7DF6455987",
+  "keywordClasses": [
+    {
+      "name": "tools.ReadPDF",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

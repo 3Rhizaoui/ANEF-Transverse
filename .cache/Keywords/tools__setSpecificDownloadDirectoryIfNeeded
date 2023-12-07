@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C39BB594CA957B90C5FB623D0589B47A",
+  "keywordClasses": [
+    {
+      "name": "tools.setSpecificDownloadDirectoryIfNeeded",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_ConfirmerNombreEntreprises</name>
+   <tag></tag>
+   <elementGuidId>fafde786-5439-4781-a459-f817f4df0021</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-createur-entreprise//app-indent-wrapper/app-experience-pro/div/div/anef-repeat-form/div/div/div[2]/button/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

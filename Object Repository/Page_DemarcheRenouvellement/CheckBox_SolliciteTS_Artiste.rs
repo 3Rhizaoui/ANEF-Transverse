@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CheckBox_SolliciteTS_Artiste</name>
+   <tag></tag>
+   <elementGuidId>44a9654c-0783-4ccb-a541-671372e6e559</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/form/div[1]/div[2]/fieldset/div[3]/app-radio-tree-button/div/div/div[4]/app-radio-tree-button/div/p-radiobutton/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

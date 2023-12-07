@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_NombreEntreprisesGerees</name>
+   <tag></tag>
+   <elementGuidId>774ce2c1-81e4-435b-9006-69935c32159b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-motif-sejour-ptinv//app-createur-entreprise/div/app-indent-wrapper/app-experience-pro/div/div/anef-repeat-form/div/div/div[1]/div[1]/anef-input-text/div/div/div[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

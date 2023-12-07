@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>List_TypeEtablissement</name>
+   <tag></tag>
+   <elementGuidId>79827d71-6128-4ae7-ae8a-b51bb3c492c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;TYPE_ETABLISSEMENT&quot;]/div/div[5]/div/ul/p-dropdownitem[3]/li/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/app-root/div/app-portal/main/app-theme-v2/div/app-demande/div/div[3]/app-motif-scolaire/div[2]/div/p-accordion/div/form/p-accordiontab[2]/div[2]/div/div/div[1]/div/anef-input-select/div/div/p-dropdown/div/div[2]/select</value>
+      <webElementGuid>8b89f64c-959c-41c6-943a-e8fa9df27758</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

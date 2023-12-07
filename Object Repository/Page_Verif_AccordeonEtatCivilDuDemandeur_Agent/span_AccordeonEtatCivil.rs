@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_AccordeonEtatCivil</name>
+   <tag></tag>
+   <elementGuidId>cf736965-e51c-4c4e-a26a-461b3560c008</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-layout/div/div/div/app-navigation-layout/div[2]/app-demande-instruction/div/div[1]/form/p-accordion/div/p-accordiontab[1]/div[1]/a/span[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

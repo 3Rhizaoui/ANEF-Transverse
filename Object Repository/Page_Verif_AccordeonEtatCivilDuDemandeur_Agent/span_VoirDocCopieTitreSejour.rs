@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_VoirDocCopieTitreSejour</name>
+   <tag></tag>
+   <elementGuidId>b26789f4-e5be-44c4-9785-460f91b122e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/app-etat-civil/div/div[2]/div/app-justificatifs[4]/div/div[2]/div/div[1]/div[2]/app-visionneuse/a/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

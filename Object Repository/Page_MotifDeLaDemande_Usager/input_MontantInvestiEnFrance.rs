@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_MontantInvestiEnFrance</name>
+   <tag></tag>
+   <elementGuidId>bfe497ed-33e9-4e14-b8ac-25ea5d424b84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-demande-ptinv//app-motif-sejour-ptinv//app-informations-investisseur-ptinv//anef-input-text/div/div/div[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

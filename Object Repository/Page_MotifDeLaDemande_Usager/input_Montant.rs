@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Montant</name>
+   <tag></tag>
+   <elementGuidId>0303556e-a1a2-4604-947a-b24272733cfd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-demande-ptinv//app-motif-sejour-ptinv//app-createur-entreprise//app-moyens-financiers/div[2]/div/anef-repeat-form/div/div[2]/fieldset/app-moyens-financiers-compte/fieldset/div[2]/div/anef-input-text/div/div/div[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

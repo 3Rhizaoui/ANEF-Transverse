@@ -1,0 +1,288 @@
+1
+00:00:00,886 --> 00:00:01,321
+1. com.kazurayam.ksbackyard.HighlightElement.pandemic()
+
+2
+00:00:01,343 --> 00:00:05,719
+7. Appel Brique Réutilisable pour lancer URl ANEF pour Usager ou Agent
+
+3
+00:00:05,722 --> 00:00:05,725
+5. RunConfiguration: getExecutionProperties Driver 
+
+4
+00:00:05,729 --> 00:00:05,732
+9. DriverName = ""
+
+5
+00:00:05,734 --> 00:00:10,323
+13. openBrowser("")
+
+6
+00:00:10,325 --> 00:00:10,348
+17. driver = getWebDriver()
+
+7
+00:00:10,349 --> 00:00:10,387
+21. wrappedDriver = driver.getWrappedDriver()
+
+8
+00:00:10,392 --> 00:00:10,470
+25. out.println(wrappedDriver.getClass())
+
+9
+00:00:10,472 --> 00:00:10,476
+29. if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver)
+
+10
+00:00:10,478 --> 00:00:10,497
+2. DriverName = get("WebUI").get("browserType")
+
+11
+00:00:10,498 --> 00:00:10,508
+6. println("DriverName :" + DriverName)
+
+12
+00:00:10,509 --> 00:00:10,512
+10. println("Driverpath :" + RunBrowserConfiguration.get("drivers"))
+
+13
+00:00:10,513 --> 00:00:11,595
+33. DriverName = DriverName
+
+14
+00:00:11,596 --> 00:00:14,633
+37. delay(medium_wait)
+
+15
+00:00:14,637 --> 00:00:14,640
+41. executedBrowser = getExecutedBrowser()
+
+16
+00:00:14,641 --> 00:00:14,642
+45. if (Profiles == "Usager")
+
+17
+00:00:14,643 --> 00:00:14,644
+1. switch (DriverName)
+
+18
+00:00:14,646 --> 00:00:14,646
+4. Navigation à URL  Qualification et Création MDP
+
+19
+00:00:14,647 --> 00:00:17,255
+1. navigateToUrl(URL_ANEFQualif)
+
+20
+00:00:17,257 --> 00:00:17,259
+10. Navigation à URL Préprode  et Création MDP
+
+21
+00:00:17,261 --> 00:00:17,315
+14. maximizeWindow()
+
+22
+00:00:17,316 --> 00:00:17,323
+18. System.setProperty("webdriver.chrome.driver", getChromeDriverPath())
+
+23
+00:00:17,328 --> 00:00:17,332
+22. System.setProperty("webdriver.chrome.logfile", getProjectDir() + "/Dump/chromedriver.log")
+
+24
+00:00:17,334 --> 00:00:18,232
+28. Appel de l'action Réutilisable pour contourner l'erreur lié à la confidentialité
+
+25
+00:00:18,234 --> 00:00:18,253
+3. waiting for the number of elements in the DOM to stop changing
+
+26
+00:00:18,254 --> 00:00:18,255
+11. RunConfiguration: getExecutionProperties Driver 
+
+27
+00:00:18,257 --> 00:00:18,258
+17. contournement du message d'erreur lié à la confidentialité :
+
+28
+00:00:18,259 --> 00:00:18,518
+1. if (verifyElementPresent(findTestObject("Object Repository/Connexion Usager/Btn_Parametres Avances"), 2, OPTIONAL))
+
+29
+00:00:18,525 --> 00:00:20,921
+1. click(findTestObject("Object Repository/Connexion Usager/Btn_Parametres Avances"), OPTIONAL)
+
+30
+00:00:20,922 --> 00:00:23,450
+5. click(findTestObject("Object Repository/Connexion Usager/Link_Proceed-Link"), OPTIONAL)
+
+31
+00:00:23,451 --> 00:00:23,453
+23. contournement du message d'erreur lié à la confidentialité :
+
+32
+00:00:23,454 --> 00:00:26,486
+27. delay(3)
+
+33
+00:00:26,487 --> 00:00:31,493
+32. delay(5)
+
+34
+00:00:31,494 --> 00:00:31,722
+38. Vérification de l'étape :
+
+35
+00:00:31,724 --> 00:00:31,725
+42. break
+
+36
+00:00:31,726 --> 00:00:31,729
+49. if (Profiles == "Agent")
+
+37
+00:00:31,731 --> 00:00:31,735
+2. println("Vérifier le Portail de votre connexion Usager ou Agent")
+
+38
+00:00:31,736 --> 00:00:31,738
+11. if (StopTestCase == false)
+
+39
+00:00:31,740 --> 00:00:32,531
+3. Appel Brique Réutilisable pour Identification Usager ou Agent
+
+40
+00:00:32,533 --> 00:00:32,534
+1. if (Profiles == "Usager")
+
+41
+00:00:32,538 --> 00:00:37,553
+1. delay(5)
+
+42
+00:00:37,554 --> 00:00:40,137
+7.  Cliquer sur le lien Se Connecter :
+
+43
+00:00:40,141 --> 00:00:40,220
+13. Appel de l'action Réutilisable pour contourner l'erreur lié à la confidentialité
+
+44
+00:00:40,223 --> 00:00:40,226
+3. waiting for the number of elements in the DOM to stop changing
+
+45
+00:00:40,229 --> 00:00:40,230
+11. RunConfiguration: getExecutionProperties Driver 
+
+46
+00:00:40,232 --> 00:00:40,234
+17. contournement du message d'erreur lié à la confidentialité :
+
+47
+00:00:40,237 --> 00:00:40,392
+1. if (verifyElementPresent(findTestObject("Object Repository/Connexion Usager/Btn_Parametres Avances"), 2, OPTIONAL))
+
+48
+00:00:40,395 --> 00:00:42,669
+1. click(findTestObject("Object Repository/Connexion Usager/Btn_Parametres Avances"), OPTIONAL)
+
+49
+00:00:42,671 --> 00:00:45,057
+5. click(findTestObject("Object Repository/Connexion Usager/Link_Proceed-Link"), OPTIONAL)
+
+50
+00:00:45,059 --> 00:00:45,061
+23. contournement du message d'erreur lié à la confidentialité :
+
+51
+00:00:45,062 --> 00:00:48,087
+27. delay(3)
+
+52
+00:00:48,089 --> 00:00:53,099
+17. delay(5)
+
+53
+00:00:53,100 --> 00:00:57,559
+23. Renseigner l'Identifiant et le mot de passe :
+
+54
+00:00:57,561 --> 00:00:57,563
+27. NumEtrangerVisa = NumEtrangerVisa
+
+55
+00:00:57,564 --> 00:01:01,969
+31. setEncryptedText(findTestObject("Object Repository/Connexion Usager/Input_MDP"), Password)
+
+56
+00:01:01,971 --> 00:01:05,669
+35. click(findTestObject("Object Repository/Connexion Usager/btn_Sidentifier"))
+
+57
+00:01:05,671 --> 00:01:20,694
+39. delay(15)
+
+58
+00:01:20,695 --> 00:01:20,823
+45. Vérification position sur la page d'accueil
+
+59
+00:01:20,825 --> 00:01:20,826
+7. Identification : Portail Agent
+
+60
+00:01:20,827 --> 00:01:20,830
+2. println("Vérifier le Portail de votre connexion Usager ou Agent")
+
+61
+00:01:20,831 --> 00:01:21,494
+9. Appel Brique Réutilisable pour une Demande Ou Renouvelle Titre De Sejour Usager
+
+62
+00:01:21,495 --> 00:01:21,499
+1. com.kazurayam.ksbackyard.HighlightElement.pandemic()
+
+63
+00:01:21,500 --> 00:01:24,519
+5. delay(3)
+
+64
+00:01:24,520 --> 00:01:24,523
+9. if (ChangementSituation == "Non")
+
+65
+00:01:24,525 --> 00:01:24,973
+4. Choisir le branchement demandé par mes JDD réutilisables  
+
+66
+00:01:24,976 --> 00:01:27,985
+8. delay(3)
+
+67
+00:01:27,987 --> 00:01:27,989
+12. println(ChangementSituation)
+
+68
+00:01:27,990 --> 00:01:27,991
+16. switch (ChangementSituation)
+
+69
+00:01:27,993 --> 00:01:30,256
+2. check(findTestObject("Object Repository/Page_Accueil_Usager/CheckBox_PertVolDeterioration"))
+
+70
+00:01:30,259 --> 00:01:33,264
+6. delay(3)
+
+71
+00:01:33,266 --> 00:01:35,544
+12. Je valide Mon choix
+
+72
+00:01:35,549 --> 00:01:38,566
+16. delay(3)
+

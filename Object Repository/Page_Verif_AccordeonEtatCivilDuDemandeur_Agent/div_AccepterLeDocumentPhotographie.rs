@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AccepterLeDocumentPhotographie</name>
+   <tag></tag>
+   <elementGuidId>76b3d92d-f7c3-43b8-ae55-62132512c8d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/app-etat-civil/div/div[2]/div/app-justificatifs[1]/div/div[2]/div/div[3]/anef-input-radio/div/div/fieldset/div/div[2]/p-radiobutton/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

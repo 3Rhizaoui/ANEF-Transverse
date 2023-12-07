@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "A1C6936BD535297FB26650840CC86463",
+  "keywordClasses": [
+    {
+      "name": "tools.markErreurAndStop",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_ConfirmerNumeroSiret</name>
+   <tag></tag>
+   <elementGuidId>9ba50811-515f-4ac2-b7fb-b4f136f6621b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-demande-ptinv//app-motif-sejour-ptinv//app-createur-entreprise/div/app-indent-wrapper/app-informations-relatives-entreprise-creee/div/div/div[2]/div[2]/div/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

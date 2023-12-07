@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ValueDateDeNaissanceConjoint_MM</name>
+   <tag></tag>
+   <elementGuidId>086dd52e-d6c3-4995-ab97-cf89593016d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-informations-membre-famille-generic/div/div[3]/div/anef-input-date-approx/div/div/fieldset/div[1]/div[2]/div/div/p-dropdown/div/div[5]/div/ul/p-dropdownitem[4]/li|//app-situation-familiale/div[2]/div/anef-input-date-approx/div/div/fieldset/div/div[2]/div/div/p-dropdown/div/div[5]/div/ul/p-dropdownitem[3]/li/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

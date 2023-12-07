@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_VoirDocPhotographie</name>
+   <tag></tag>
+   <elementGuidId>edde31ae-20ad-4ab6-bcb8-dcfb97c221c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/app-etat-civil/div/div[2]/div/app-justificatifs[1]/div/div[2]/div/div[2]/div[2]/app-visionneuse/a/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

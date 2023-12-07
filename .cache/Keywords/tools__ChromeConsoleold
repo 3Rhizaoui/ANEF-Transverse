@@ -1,0 +1,147 @@
+{
+  "keywordFileContentHash": "59CAF51609A2C4AE3595D0184E5E7B68",
+  "keywordClasses": [
+    {
+      "name": "tools.ChromeConsoleold",
+      "keywordMethods": [
+        {
+          "name": "RegisterListender",
+          "parameters": [
+            {
+              "name": "listenPage",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "boolean",
+                "unresolvedClassName": "boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "listenNetwork",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "boolean",
+                "unresolvedClassName": "boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/***\r\n\t * Enable listen to Network and listen to the page trigger\r\n\t * This sets the possibilities later for the Chrome listener\r\n\t *\r\n\t * @param listenPage true if the listener for Page should be turned on\r\n\t * @param listenNetwork if the listener for network should be turned on\r\n\t * @return null\r\n\t */"
+        },
+        {
+          "name": "ResetDataCollection",
+          "parameters": [],
+          "javadoc": "/***\r\n\t * Reset the currently collected data\r\n\t *\r\n\t * @return null\r\n\t */"
+        },
+        {
+          "name": "WaitForRequestData",
+          "parameters": [],
+          "javadoc": "/***\r\n\t * wait for the collection of the request data\r\n\t *\r\n\t * @return null\r\n\t */"
+        },
+        {
+          "name": "GetResponse",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "GetRequestString",
+          "parameters": [
+            {
+              "name": "dumpToFile",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "boolean",
+                "unresolvedClassName": "boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/***\r\n\t * get the collected request data as string\r\n\t * @param dumpToFile true if the dumping to file should be turned on\r\n\t * @return returns the request Json string as original not encoded since groovy can not handle them when parsing\r\n\t */"
+        },
+        {
+          "name": "DumpToFile",
+          "parameters": [
+            {
+              "name": "dumpFileName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "data",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/***\r\n\t * Dump a string to a file\r\n\t *\r\n\t * @param dumpFileName Name of the file\r\n\t * @param data string data that should be written to the file\r\n\t * @return null\r\n\t */"
+        },
+        {
+          "name": "TakePageScreenshot",
+          "parameters": [
+            {
+              "name": "outputFilename",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/***\r\n\t * Take a screenshot of the page as it is\r\n\t * @param outputFilename dump file location\r\n\t * @return NULL\r\n\t */"
+        },
+        {
+          "name": "TakeFullPageScreenshot",
+          "parameters": [
+            {
+              "name": "outputFilename",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/***\r\n\t * Set the page of the browser to the full size of the content\r\n\t * Remove the scroll bar of the given page\r\n\t * Take a picture of it\r\n\t *\r\n\t * @param devToolsService\r\n\t * @param outputFilename\r\n\t * @return NULL\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

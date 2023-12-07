@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C46C06CDFC2143D0951668CD1945DB08",
+  "keywordClasses": [
+    {
+      "name": "tools.MongoDBConnexionStableAPI",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

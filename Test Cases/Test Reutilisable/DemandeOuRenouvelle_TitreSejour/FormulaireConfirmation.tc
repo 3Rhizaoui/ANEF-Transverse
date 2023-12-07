@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FormulaireConfirmation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d925cb6-e63f-417a-8e17-34ec891c30dd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ac397b6-657f-4ece-8e25-96d3254f2e86</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('DataFor3TestCase')</defaultValue>
+      <description></description>
+      <id>4ac397b6-657f-4ece-8e25-96d3254f2e86</id>
+      <masked>false</masked>
+      <name>NumEtrangerVisa</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "203396F74E5904704EA04A25093161F2",
+  "keywordClasses": [
+    {
+      "name": "tools.WaitForLoaded",
+      "keywordMethods": [
+        {
+          "name": "waitForElementRendering",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

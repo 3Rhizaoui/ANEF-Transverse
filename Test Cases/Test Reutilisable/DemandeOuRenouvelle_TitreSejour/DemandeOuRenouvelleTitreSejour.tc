@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DemandeOuRenouvelleTitreSejour</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3b003cf-7dca-40d2-8aaf-9320d84a4418</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ef35ea4-82a8-4fe6-b502-411a9634fd0b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('DataFor3TestCase')</defaultValue>
+      <description></description>
+      <id>5ef35ea4-82a8-4fe6-b502-411a9634fd0b</id>
+      <masked>true</masked>
+      <name>ChangementSituation</name>
+   </variable>
+</TestCaseEntity>

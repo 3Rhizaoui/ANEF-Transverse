@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "FD089F8B1630936B5CD1FA28B6B5738A",
+  "keywordClasses": [
+    {
+      "name": "tools.markWarningAndStop",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

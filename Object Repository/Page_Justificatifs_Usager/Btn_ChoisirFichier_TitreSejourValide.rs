@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Btn_ChoisirFichier_TitreSejourValide</name>
+   <tag></tag>
+   <elementGuidId>bcfc785a-5ddd-443b-86d6-725de68e6032</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-justificatifs-visiteur//app-justificatif-titre-sejour//app-pieces-jointes//span[1]/input|//app-justificatifs-ptsq//app-justificatif-titre-sejour//app-pieces-jointes//span[1]/input|//app-justificatifs/div[2]/div/p-accordion/div/p-accordiontab[1]/div[2]/div/div[1]/div/app-pieces-jointes[1]/div/span[1]/input|//div/div/div/app-justificatif-titre-sejour/div/app-pieces-jointes/div/span[1]/input
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;ui-accordiontab-7-content&quot;]/div/div[1]/div/app-pieces-jointes[1]/div/button/span</value>
+      <webElementGuid>b9bc4366-1853-47ef-acb0-39bef6f9b591</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

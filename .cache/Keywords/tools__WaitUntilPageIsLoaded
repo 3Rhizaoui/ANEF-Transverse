@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "6E496566C84BED6A44910FB604CA4B8A",
+  "keywordClasses": [
+    {
+      "name": "tools.WaitUntilPageIsLoaded",
+      "keywordMethods": [
+        {
+          "name": "run",
+          "parameters": [
+            {
+              "name": "objectto",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

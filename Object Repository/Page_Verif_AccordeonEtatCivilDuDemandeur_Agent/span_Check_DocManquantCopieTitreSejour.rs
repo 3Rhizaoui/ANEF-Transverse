@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Check_DocManquantCopieTitreSejour</name>
+   <tag></tag>
+   <elementGuidId>23be4e23-cfb7-4321-a7bb-2dc8e1e48dc8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/app-etat-civil/div/div[2]/div/app-justificatifs[4]/div/div[1]/anef-input-check/div/div/p-checkbox/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

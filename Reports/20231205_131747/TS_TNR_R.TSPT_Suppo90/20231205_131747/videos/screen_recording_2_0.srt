@@ -1,0 +1,16 @@
+1
+00:00:01,720 --> 00:00:01,725
+1. com.kazurayam.ksbackyard.HighlightElement.pandemic()
+
+2
+00:00:01,733 --> 00:00:01,827
+7. Appel Brique Réutilisable pour lancer URl ANEF pour Usager ou Agent
+
+3
+00:00:01,829 --> 00:00:01,829
+5. RunConfiguration: getExecutionProperties Driver 
+
+4
+00:00:01,831 --> 00:00:01,832
+9. DriverName = ""
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Btn_ChoisirFichier_JustificatifsInvestissement</name>
+   <tag></tag>
+   <elementGuidId>d80f4236-7ba9-4b10-a64f-a26459c987d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div[9]/app-justificatifs-motif-sejour/div/app-pieces-jointes/div/span[1]/input|//div/div[1]/app-justificatifs-motif-sejour/div/app-pieces-jointes/div/span[1]/input
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

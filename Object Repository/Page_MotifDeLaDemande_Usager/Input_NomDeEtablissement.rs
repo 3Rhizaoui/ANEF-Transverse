@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input_NomDeEtablissement</name>
+   <tag></tag>
+   <elementGuidId>afaca1b9-d8e5-4e58-8ad2-2ce94a064041</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/div/app-portal/main/app-theme-v2/div/app-demande/div/div[3]/app-motif-scolaire/div[2]/div/p-accordion/div/form/p-accordiontab[2]/div[2]/div/div/div[2]/div/anef-input-text/div/div/div[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

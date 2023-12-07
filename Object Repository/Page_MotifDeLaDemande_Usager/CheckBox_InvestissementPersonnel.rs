@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CheckBox_InvestissementPersonnel</name>
+   <tag></tag>
+   <elementGuidId>e1e38d80-52f0-4dc1-9ac4-c67f5b00d1d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div[2]/div/div/div[1]/div/div/div/app-indent-wrapper/app-informations-investisseur-ptinv/div/div[1]/div/anef-input-radio/div/div/fieldset/div/div[1]/p-radiobutton/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

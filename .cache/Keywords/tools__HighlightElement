@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "F81767FF0EB4F216793E1E95108241AD",
+  "keywordClasses": [
+    {
+      "name": "tools.HighlightElement",
+      "keywordMethods": [
+        {
+          "name": "run",
+          "parameters": [
+            {
+              "name": "objectto",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

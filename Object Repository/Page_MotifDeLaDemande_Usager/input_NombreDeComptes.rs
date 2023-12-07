@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_NombreDeComptes</name>
+   <tag></tag>
+   <elementGuidId>a7df9aa7-bd83-4783-8bba-717234950ad2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-demande-ptinv//app-motif-sejour-ptinv//app-createur-entreprise//app-indent-wrapper/app-moyens-financiers/div[2]/div/anef-repeat-form/div/div/div[1]/div[1]/anef-input-text/div/div/div[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

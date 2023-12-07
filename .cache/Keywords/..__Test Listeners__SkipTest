@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "080E41AAAEE35194115494150227190D",
+  "keywordClasses": [
+    {
+      "name": "SkipTest",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PopUp_HistoriqueDeLaDemande</name>
+   <tag></tag>
+   <elementGuidId>dcf7e8b7-ceef-4609-bdc4-adc404cb3655</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/app-statut-demande/app-historique-demande/lib-generic-modal/p-dialog/div/div[1]/span/p-header/h2</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

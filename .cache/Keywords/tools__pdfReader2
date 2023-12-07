@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "4A558113EDE15F2803EDB364BB2CF964",
+  "keywordClasses": [
+    {
+      "name": "tools.pdfReader2",
+      "keywordMethods": [
+        {
+          "name": "ReadPDF",
+          "parameters": [
+            {
+              "name": "FileName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

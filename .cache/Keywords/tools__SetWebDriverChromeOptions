@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "B1C46A3A467CDC6564D60CEB1BCC3C5A",
+  "keywordClasses": [
+    {
+      "name": "tools.GetWebCookieByNamedCollected",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

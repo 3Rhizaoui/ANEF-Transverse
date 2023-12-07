@@ -1,0 +1,139 @@
+[1701782651.755][INFO]: Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 11085
+[1701782651.755][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1701782651.949][INFO]: [9fc1b0e055b116a896b5f94d2ce8b82d] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--incognito", "--start-maximized", "--remote-allow-origins=*", "load-extension=C:\\Users\\hhizaoui\\.katalon\\packages\\Katalon_Studio_Windows_64-8.6.6\\Katalon_Studio_Windows_64-8.6.6\\configuration\\resources\\extensions\\Chrome\\Smart Wait" ],
+            "prefs": {
+               "download.default_directory": "${GlobalVariable.downloadPath}",
+               "download.prompt_for_download": false,
+               "download_dir": "${GlobalVariable.downloadPath}"
+            }
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--incognito", "--start-maximized", "--remote-allow-origins=*", "load-extension=C:\\Users\\hhizaoui\\.katalon\\packages\\Katalon_Studio_Windows_64-8.6.6\\Katalon_Studio_Windows_64-8.6.6\\configuration\\resources\\extensions\\Chrome\\Smart Wait" ],
+         "prefs": {
+            "download.default_directory": "${GlobalVariable.downloadPath}",
+            "download.prompt_for_download": false,
+            "download_dir": "${GlobalVariable.downloadPath}"
+         }
+      },
+      "loggingPrefs": {
+         "browser": "ALL"
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1701782651.957][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "${GlobalVariable.downloadPath}",
+      "prompt_for_download": false
+   },
+   "download_dir": "${GlobalVariable.downloadPath}",
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1701782651.959][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1701782651.964][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1701782651.964][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1701782651.979][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --incognito --load-extension="C:\Users\hhizaoui\.katalon\packages\Katalon_Studio_Windows_64-8.6.6\Katalon_Studio_Windows_64-8.6.6\configuration\resources\extensions\Chrome\Smart Wait" --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\WINDOWS\SystemTemp\scoped_dir108756_142868847" data:,
+[1701782653.264][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1701782654.144][INFO]: [9fc1b0e055b116a896b5f94d2ce8b82d] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "119.0.6045.161",
+      "chrome": {
+         "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
+         "userDataDir": "C:\\WINDOWS\\SystemTemp\\scoped_dir108756_142868847"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63434"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "9fc1b0e055b116a896b5f94d2ce8b82d"
+}

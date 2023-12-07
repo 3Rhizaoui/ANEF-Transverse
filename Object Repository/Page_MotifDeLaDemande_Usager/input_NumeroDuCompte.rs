@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_NumeroDuCompte</name>
+   <tag></tag>
+   <elementGuidId>c1c8b712-5df7-4c2b-8d31-9d40d6eb294f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-motif-sejour-ptinv//app-createur-entreprise//app-indent-wrapper/app-moyens-financiers/div[2]/div/anef-repeat-form/div/div[2]/fieldset/app-moyens-financiers-compte/fieldset/div[5]/div/anef-input-text/div/div/div[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

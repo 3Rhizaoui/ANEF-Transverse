@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_NumeroSiret</name>
+   <tag></tag>
+   <elementGuidId>e5d5feca-20a4-4116-8f2b-74ea7909a76a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-demande-ptinv//app-motif-sejour-ptinv//app-createur-entreprise/div/app-indent-wrapper/app-informations-relatives-entreprise-creee/div/div/div[2]/div[1]/div/anef-input-text/div/div/div[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_InformationsComplementaires</name>
+   <tag></tag>
+   <elementGuidId>c438baa2-7465-4662-9a3c-846fadfed50f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-motif-sejour-ptart//app-indent-wrapper/app-informations-artiste-non-salarie/div/div[2]/div/anef-input-textarea/div/div/textarea</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
