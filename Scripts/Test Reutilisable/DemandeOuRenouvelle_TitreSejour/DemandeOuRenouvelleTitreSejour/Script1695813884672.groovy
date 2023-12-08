@@ -62,7 +62,7 @@ else {
 		case 'ChangementSituation':
 			WebUI.check(findTestObject('Object Repository/Page_Accueil_Usager/CheckBox_ChangementSituation'), FailureHandling.OPTIONAL)
 		break
-		case 'PertVolDeterioration' :
+		case 'PerteVolDeterioration' :
 			WebUI.check(findTestObject('Object Repository/Page_Accueil_Usager/CheckBox_PertVolDeterioration'), FailureHandling.OPTIONAL)
 			WebUI.delay(5)
 			'Je valide Mon choix'
